@@ -1,0 +1,16 @@
+/* Movie.css */
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+    justify-items: center;
+}
+
+.movie-poster {
+    width: 100%;
+    max-width: 200px; /* Limit poster width */
+    height: auto;
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
